@@ -4,7 +4,8 @@ const contactInfo = [
   {
     address: "Gordon's Bay, Cape Town 7140",
     phone: "+27 (0)82 253 6345",
-    email: "87elrivdm@gmail.com",
+    email: "info@elrilegrange.co.za",
+    web: "www.elrilegrange.co.za",
   },
 ];
 function Contact() {
@@ -26,6 +27,15 @@ function Contact() {
                     </p>
                     <p className="px-8 py-8 text-center text-2xl text-gray-500 rounded font-semibold">
                       {item.phone}
+                    </p>
+                    <p className="text-center text-2xl text-gray-500 rounded font-semibold">
+                      <a
+                        href="https://www.elrilegrange.co.za/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {item.web}
+                      </a>
                     </p>
                     <p className="text-center text-2xl text-gray-500 rounded font-semibold">
                       {item.email}
