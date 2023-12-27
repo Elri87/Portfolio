@@ -6,11 +6,43 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "Elri vd Merwe Photography",
-    description: "Web Design for a Wedding Photography Page",
-    image: "/elri-photography.png",
-    github: "nothing yet",
-    link: "https://www.elri-photography.co.za/",
+    name: "Hungry Pets Web-Based Game",
+    description:
+      "I created the 'Hungry Pets' web-based game using HTML, CSS, and JavaScript. The game features animated pets with dynamic hunger levels that increase every second, posing a challenge for users to keep their pets alive. Users can interact by feeding the pets and expressing affection through a Love meter. A new pet is introduced every 30 seconds, and if the Love meter reaches zero, pets perish, marked by a visual shift in the container's background color.",
+    image: "/hungry-pets.png",
+    github: "https://github.com/Elri87/hungryPets",
+    link: "https://hackmyhead-hungrypets.netlify.app/",
+  },
+  {
+    name: "Spammer Message Board Platform",
+    description:
+      "I created 'Spammer,' a dynamic message board platform using React Next.js for the frontend and a RESTful API server for the backend. This web application features user-generated posts, a voting system for upvoting content, and a clean UI for an enhanced user experience.",
+    image: "/spammer.png",
+    github: "https://github.com/Elri87/hmhSpammerCrud",
+    link: "https://hmh-crud-spammer.netlify.app/",
+  },
+  {
+    name: "Reddit Clone Message Board Platform",
+    description:
+      "I created my version of a Reddit Clone, a versatile message board platform fostering user-generated content and engagement. Utilizing React Next.js for the frontend and incorporating full-stack capabilities, I engineered an intuitive user interface with reusable components, including recursive elements for efficiently managing replies within message threads.",
+    image: "/reddit-temp.png",
+    github: "https://github.com/Elri87/hmhRedditClone",
+    link: "",
+  },
+  {
+    name: "Landing Page",
+    description:
+      "I created a landing page utilizing React Next.js & Chakra Ui for the frontend.",
+    image: "/chakra.png",
+    github: "https://github.com/Elri87/LandingPage",
+    link: "https://landing-page-elri87.vercel.app/",
+  },
+  {
+    name: "Architect Website",
+    description: "Static Website with Bootstrap.",
+    image: "/mbarc.png",
+    github: "https://github.com/ft8coza/mbarc",
+    link: "https://mbarch.co.za/",
   },
   {
     name: "Netflix Clone",
@@ -18,13 +50,6 @@ const projects = [
     image: "/NetflixClone.png",
     github: "",
     link: "https://netflix-clone-elri87.vercel.app/",
-  },
-  {
-    name: "Tresor Packaging",
-    description: "Web Design & build for an Online shop",
-    image: "/tresorpackaging.png",
-    github: "",
-    link: "https://www.tresorpackaging.com/",
   },
 ];
 
