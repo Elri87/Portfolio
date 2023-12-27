@@ -1,6 +1,8 @@
 //must be imported in page under app
 import React from "react";
 import Image from "next/image";
+//import { Link } from "react-scroll";
+//import { HiArrowDown } from "react-icons/hi";
 
 const skills = [
   { skill: "HTML" },
@@ -8,7 +10,9 @@ const skills = [
   { skill: "JavaScript" },
   { skill: "React" },
   { skill: "Next.js" },
+  { skill: "Express" },
   { skill: "Tailwind CSS" },
+  { skill: "Bootstrap" },
   { skill: "Git" },
   { skill: "GitHub" },
 ];
@@ -32,8 +36,19 @@ function AboutSection() {
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> Web Developer based
-              in Gordons Bay.
+              in Gordons Bay, South Africa.
             </p>{" "}
+            <br />
+            <p>
+              I am currently engaged in an Engineering and Fullstack Web
+              Development apprenticeship at Hackmyhead. Throughout this program,
+              I have dedicated over 192 hours to live collaboration, actively
+              contributing to the development of dynamic full-stack
+              applications. My work primarily involves utilizing technologies
+              such as React, HTML, CSS, JavaScript, Next.js, Node, Prisma, Git,
+              and GitHub. I am scheduled to complete the apprenticeship on the
+              1st of February 2024.
+            </p>
             <br />
             <p>
               I obtained a Full Stack Web Develeopment certificate from
