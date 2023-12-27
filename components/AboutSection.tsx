@@ -52,7 +52,8 @@ function AboutSection() {
             <br />
             <p>
               I obtained a Full Stack Web Develeopment certificate from
-              HypervionDev, in June 2023.
+              HypervionDev, in June 2023, and a UX Design Certificate from
+              Coursera, in Sept 2022.
             </p>
             <br />
             <p>
