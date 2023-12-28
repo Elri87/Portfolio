@@ -3,7 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
-import { HiArrowDown } from "react-icons/hi";
 
 function HeroSection() {
   return (
@@ -43,7 +42,16 @@ function HeroSection() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-row items-center text-center justify-center ">
+    </section>
+  );
+}
+
+export default HeroSection;
+
+//section - adding id so that navbar knows where to go when we scroll on home
+//Animation ( className="animate-bounce") for arrow is added in tailwind.config file under extend
+/* import { HiArrowDown } from "react-icons/hi";
+<div className="flex flex-row items-center text-center justify-center ">
         <Link
           to="about"
           activeClass="active"
@@ -54,12 +62,4 @@ function HeroSection() {
         >
           <HiArrowDown size={35} className="animate-bounce" />
         </Link>
-      </div>
-    </section>
-  );
-}
-
-export default HeroSection;
-
-//section - adding id so that navbar knows where to go when we scroll on home
-//Animation ( className="animate-bounce") for arrow is added in tailwind.config file under extend
+      </div>*/
